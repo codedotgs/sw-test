@@ -4,7 +4,7 @@ a front-end test with star wars content
 ## TODO
 - [x] Installer Webpack
 - [x] Configurer Webpack
-- [ ] Importer les assets
+- [x] Importer les assets
 - [ ] Intégrer le header
 - [ ] Styliser le header en Responsive
 - [ ] Intégrer la 1ère section

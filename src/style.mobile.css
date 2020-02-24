@@ -1,4 +1,13 @@
 @media (max-width: 900px) {
+  * {
+    min-width: 320px;
+  }
+
+  body {
+    overflow-x: hidden;
+    position: absolute;
+  }
+
   /* HEADER */
   header {
     background-image: url('./public/images/header-bg.png');
@@ -34,6 +43,20 @@
   .primary aside {
     display: none;
   }
+
+  /* PARALLAX : Kylo Ren */
+  #kyloren {
+    background-image: url('./public/images/kiloren.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100vw;
+    margin: 60px auto;
+    height: 400px;
+  }
+
+  .parallax {
+    width: 100vw;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -41,7 +64,7 @@
   header {
     background-image: url('./public/images/header-bg.png');
     background-repeat: no-repeat;
-    background-size: 100% 106vw;
+    background-size: 100vw 106vw;
     display: block;
     height: 106vw;
     min-height: inherit;

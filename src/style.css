@@ -7,7 +7,7 @@ body {
   font-family: 'Open Sans';
   font-size: 14px;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 /* HEADER */
@@ -30,7 +30,7 @@ header img {
 /* SECTION PRIMARY */
 .primary {
   display: flex;
-  margin: 100px auto 0 auto;
+  margin: 100px auto 106px auto;
   text-align: center;
   width: 755px;
 }
@@ -59,4 +59,20 @@ header img {
   margin: 0;
   text-align: right;
   width: 375px;
+}
+
+
+/* PARALLAX : Kylo Ren */
+#kyloren {
+  background-image: url('./public/images/kiloren-2x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 60px auto;
+  height: 500px;
+}
+
+.parallax {
+  height: 500px;
+  width: 100vw;
 }

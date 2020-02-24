@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./public/fonts/OpenSans-Regular.ttf') format('ttf');
+}
+body {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+header {
+  background-image: url('./public/images/header-bg-2x.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: block;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+header img {
+  display: inline-block;
+  margin: 125px auto 0 auto;
+  max-width: 738px;
+}

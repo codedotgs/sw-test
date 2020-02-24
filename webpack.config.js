@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -10,9 +11,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'inline-source-map',
-  devServer: {
-    contentBase: './dist',
-  },
   module: {
     rules: [
       { // rules for JS
@@ -22,7 +20,7 @@ module.exports = {
       },
       { // rules for CSS
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
       },
       { // rules for Images
         test: /\.(png|svg|jpg|gif)$/,
@@ -37,14 +35,19 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      inject: false,
       hash: true,
+      inject: true,
+      cache: false,
       template: './src/index.html',
-      filename: 'index.html'
+      minify: {
+        removeComments: true,
+        collapseWhitespace: false
+      }
     }),
-    new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css',
-    }),
+    new MiniCssExtractPlugin(),
+    new CopyPlugin([
+      { from: './src/public/images', to: 'images'},
+      { from: './src/public/fonts', to: 'fonts' },
+    ]),
   ],
 };

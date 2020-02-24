@@ -3,4 +3,4 @@ module.exports = ({ file, options, env }) => ({
     'autoprefixer': env === 'production' ? options.autoprefixer : false,
     'cssnano': env === 'production' ? options.cssnano : false
   }
-})
+});

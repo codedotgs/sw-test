@@ -5,8 +5,8 @@ a front-end test with star wars content
 - [x] Installer Webpack
 - [x] Configurer Webpack
 - [x] Importer les assets
-- [ ] Intégrer le header
-- [ ] Styliser le header en Responsive
+- [x] Intégrer le header
+- [x] Styliser le header en Responsive
 - [ ] Intégrer la 1ère section
 - [ ] Styliser la 1ère section en Responsive
 - [ ] Intégrer la pub PS4

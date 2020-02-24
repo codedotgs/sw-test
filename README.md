@@ -19,8 +19,8 @@ a front-end test with star wars content
 - [x] Styliser le bloc Parallax des Stormtroopers
 - [x] Intégrer le footer
 - [x] Styliser le footer
-- [ ] Intégrer le menu responsive
-- [ ] Styliser le menu responsive
-- [ ] Créer la fonction du menu
+- [x] Intégrer le menu responsive
+- [x] Styliser le menu responsive
+- [x] Créer la fonction du menu
 - [ ] Créer la fonction pour la pub
 - [ ] Créer la fonction Parallax

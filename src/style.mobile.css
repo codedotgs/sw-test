@@ -1,5 +1,15 @@
 @media (max-width: 900px) {
 
+  @keyframes openNav {
+    0% {left: 100vw;}
+    100% {left: 0vw;}
+  }
+
+  @keyframes closeNav {
+    0% {left: 0vw;}
+    100% {left: 100vw;}
+  }
+
 
   body {
     overflow-x: hidden;
@@ -25,6 +35,55 @@
     margin: 125px auto 0 auto;
     width: 70%;
   }
+
+
+  /* NAV */
+  nav {
+    animation: navAnimation 1s 2;
+    background: url('./public/images/header-bg.png') no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    height: 55px;
+    line-height: 60x;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0vw;
+    left: 100vw;
+    height: 100vh;
+    width: 100%;
+  }
+  #close, #open {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  #close {
+    left: 0;
+    padding: 20px 46px;
+  }
+  #open{
+    padding: 20px;
+    right: 0;
+  }
+
+  nav a {
+    color: #fff;
+    display: block;
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 15px 0 18px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
 
   /* SECTION PRIMARY */
   .primary {

@@ -30,6 +30,7 @@ header img {
 /* SECTION PRIMARY */
 .primary {
   display: flex;
+  flex-direction: row;
   margin: 100px auto 106px auto;
   text-align: center;
   width: 755px;
@@ -76,3 +77,35 @@ header img {
   height: 500px;
   width: 100vw;
 }
+
+
+/* SECTION SECONDARY */
+.secondary {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 100px auto 106px auto;
+  text-align: center;
+  width: 780px;
+}
+.secondary em {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto 52px auto;
+  width: 780px;
+}
+.secondary section {
+  width: 100%;
+}
+.secondary section img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.secondary section p {
+  font-size: 1em;
+  line-height: 24px;
+  margin: 0 auto;
+  text-align: left;
+}
+.secondary section p strong { font-style: italic; }

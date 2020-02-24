@@ -13,8 +13,8 @@ a front-end test with star wars content
 - [x] Styliser la pub PS4
 - [x] Intégrer le bloc Parallax de Kylo Ren
 - [x] Styliser le bloc Parallax de Kylo Ren
-- [ ] Intégrer la 2ème section
-- [ ] Styliser la 2ème section en Responsive
+- [x] Intégrer la 2ème section
+- [x] Styliser la 2ème section en Responsive
 - [ ] Intégrer le bloc Parallax des Stormtroopers
 - [ ] Styliser le bloc Parallax des Stormtroopers
 - [ ] Intégrer le footer

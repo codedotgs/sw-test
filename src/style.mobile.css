@@ -57,6 +57,25 @@
   .parallax {
     width: 100vw;
   }
+
+
+  /* SECTION SECONDARY */
+  .secondary {
+    margin: 30px auto;
+    width: 100vw;
+  }
+  .secondary em {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 52px auto;
+    width: 82.5vw;
+  }
+  .secondary section {
+    margin: 0 auto;
+    text-align: center;
+    width: 82.5vw;
+  }
 }
 
 @media (max-width: 767.98px) {

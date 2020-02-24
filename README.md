@@ -7,10 +7,10 @@ a front-end test with star wars content
 - [x] Importer les assets
 - [x] Intégrer le header
 - [x] Styliser le header en Responsive
-- [ ] Intégrer la 1ère section
-- [ ] Styliser la 1ère section en Responsive
-- [ ] Intégrer la pub PS4
-- [ ] Styliser la pub PS4
+- [x] Intégrer la 1ère section
+- [x] Styliser la 1ère section en Responsive
+- [x] Intégrer la pub PS4
+- [x] Styliser la pub PS4
 - [ ] Intégrer le bloc Parallax de Kylo Ren
 - [ ] Styliser le bloc Parallax de Kylo Ren
 - [ ] Intégrer la 2ème section
@@ -22,4 +22,5 @@ a front-end test with star wars content
 - [ ] Intégrer le menu responsive
 - [ ] Styliser le menu responsive
 - [ ] Créer la fonction du menu
+- [ ] Créer la fonction pour la pub
 - [ ] Créer la fonction Parallax

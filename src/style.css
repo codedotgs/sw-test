@@ -4,10 +4,13 @@
 }
 body {
   display: block;
+  font-family: 'Open Sans';
+  font-size: 14px;
   position: relative;
   width: 100%;
 }
 
+/* HEADER */
 header {
   background-image: url('./public/images/header-bg-2x.png');
   background-repeat: no-repeat;
@@ -22,4 +25,38 @@ header img {
   display: inline-block;
   margin: 125px auto 0 auto;
   max-width: 738px;
+}
+
+/* SECTION PRIMARY */
+.primary {
+  display: flex;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  width: 755px;
+}
+
+.primary section {
+  margin: 0;
+  text-align: left;
+  width: 380px;
+}
+
+.primary section p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.primary section p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.primary section .title {
+  font-weight: 700;
+}
+
+.primary aside {
+  margin: 0;
+  text-align: right;
+  width: 375px;
 }

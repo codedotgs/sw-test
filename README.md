@@ -23,4 +23,5 @@ a front-end test with star wars content
 - [x] Styliser le menu responsive
 - [x] Créer la fonction du menu
 - [x] Créer la fonction pour la pub
+- [x] Créer une fonction avec un léger effet Parallax
 - [ ] Créer la fonction Parallax

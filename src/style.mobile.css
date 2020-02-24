@@ -1,7 +1,5 @@
 @media (max-width: 900px) {
-  * {
-    min-width: 320px;
-  }
+
 
   body {
     overflow-x: hidden;
@@ -86,6 +84,81 @@
     background-size: auto 100%;
     margin: 30px auto 0 auto;
     height: 400px;
+  }
+
+
+  /* FOOTER */
+  footer {
+    background-image: url('./public/images/darthvader.jpg');
+    display: block;
+    height: 272px;
+    min-height: 272px;
+    min-width: 320px;
+    width: 100vw;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    height: auto;
+    padding-top: 40px;
+    flex-flow: row wrap;
+  }
+
+  .links ul:nth-child(1) {
+    padding-bottom: 70px;
+    width: 50%;
+  }
+  .links ul:nth-child(0n+2) {
+    padding-bottom: 70px;
+    width: 50%;
+  }
+
+  .links ul:nth-child(0n+3) {
+    grid-row: 2;
+    width: 100vw;
+  }
+  .links ul:nth-child(0n+3) li {
+    vertical-align: middle;
+    padding: 0;
+  }
+
+  .links ul li {
+    font-size: 12px;
+    line-height: 30px;
+    list-style: none;
+    text-align: center;
+  }
+
+  .links ul li a {
+    color: #9B9B9B;
+    text-decoration: none;
+  }
+
+  .links ul li a:hover {
+    color: #9B9B9B;
+    text-decoration: underline;
+  }
+
+  .links ul li ul {
+    width: 100%;
+  }
+  .links ul li ul li:first-child {
+    width: 50%;
+  }
+
+  #socials {
+    display: inline;
+    min-width: inherit;
+    padding: 0;
+    width: 100vw;
+  }
+
+  #socials li a img {
+    width: 32px;
   }
 }
 

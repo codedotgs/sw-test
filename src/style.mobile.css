@@ -76,6 +76,17 @@
     text-align: center;
     width: 82.5vw;
   }
+
+
+  /* PARALLAX : Stormtroopers */
+  #stormtroopers {
+    background-image: url('./public/images/stormtroopers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 30px auto 0 auto;
+    height: 400px;
+  }
 }
 
 @media (max-width: 767.98px) {

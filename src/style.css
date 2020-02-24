@@ -31,7 +31,7 @@ header img {
 .primary {
   display: flex;
   flex-direction: row;
-  margin: 100px auto 106px auto;
+  margin: 100px auto;
   text-align: center;
   width: 755px;
 }
@@ -66,15 +66,15 @@ header img {
 /* PARALLAX : Kylo Ren */
 #kyloren {
   background-image: url('./public/images/kiloren-2x.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  margin: 60px auto;
   height: 500px;
 }
 
 .parallax {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   height: 500px;
+  margin: 0 auto;
   width: 100vw;
 }
 
@@ -84,7 +84,7 @@ header img {
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 100px auto 106px auto;
+  margin: 0 auto 60px auto;
   text-align: center;
   width: 780px;
 }
@@ -92,7 +92,7 @@ header img {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-  margin: 0 auto 52px auto;
+  margin: 56px auto;
   width: 780px;
 }
 .secondary section {
@@ -109,3 +109,9 @@ header img {
   text-align: left;
 }
 .secondary section p strong { font-style: italic; }
+
+/* PARALLAX : Stormtroopers */
+#stormtroopers {
+  background-image: url('./public/images/stormtroopers-2x.jpg');
+  height: 250px;
+}

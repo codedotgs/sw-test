@@ -15,8 +15,8 @@ a front-end test with star wars content
 - [x] Styliser le bloc Parallax de Kylo Ren
 - [x] Intégrer la 2ème section
 - [x] Styliser la 2ème section en Responsive
-- [ ] Intégrer le bloc Parallax des Stormtroopers
-- [ ] Styliser le bloc Parallax des Stormtroopers
+- [x] Intégrer le bloc Parallax des Stormtroopers
+- [x] Styliser le bloc Parallax des Stormtroopers
 - [ ] Intégrer le footer
 - [ ] Styliser le footer
 - [ ] Intégrer le menu responsive

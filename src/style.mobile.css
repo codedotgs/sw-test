@@ -1,0 +1,270 @@
+@media (max-width: 900px) {
+
+  @keyframes openNav {
+    0% {left: 100vw;}
+    100% {left: 0vw;}
+  }
+
+  @keyframes closeNav {
+    0% {left: 0vw;}
+    100% {left: 100vw;}
+  }
+
+
+  body {
+    overflow-x: hidden;
+    position: absolute;
+  }
+
+  /* HEADER */
+  header {
+    background-image: url('./public/images/header-bg.png');
+    /* background-image: none; */
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    display: block;
+    height: 106vw;
+    min-height: inherit;
+    max-height: 400px;
+    width: 100%;
+    text-align: center;
+  }
+
+  header img {
+    display: inline-block;
+    margin: 125px auto 0 auto;
+    width: 70%;
+  }
+
+
+  /* NAV */
+  nav {
+    animation: navAnimation 1s 2;
+    background: url('./public/images/header-bg.png') no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    height: 55px;
+    line-height: 60x;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0vw;
+    left: 100vw;
+    height: 100vh;
+    width: 100%;
+  }
+  #close, #open {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+  #close {
+    left: 0;
+    padding: 20px 46px;
+  }
+  #open{
+    padding: 20px;
+    right: 0;
+  }
+
+  nav a {
+    color: #fff;
+    display: block;
+    display: block;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 15px 0 18px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+
+
+  /* SECTION PRIMARY */
+  .primary {
+    margin: 30px auto 0 auto ;
+    width: 100vw;
+  }
+
+  .primary section {
+    margin: 0 auto;
+    text-align: center;
+    width: 82.5vw;
+  }
+
+  .primary aside {
+    display: none;
+  }
+
+  /* PARALLAX : Kylo Ren */
+  #kyloren {
+    background-image: url('./public/images/kiloren.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 60px auto;
+    height: 400px;
+  }
+
+  .parallax {
+    width: 100vw;
+  }
+
+
+  /* SECTION SECONDARY */
+  .secondary {
+    margin: 30px auto;
+    width: 100vw;
+  }
+  .secondary em {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 52px auto;
+    width: 82.5vw;
+  }
+  .secondary section {
+    margin: 0 auto;
+    text-align: center;
+    width: 82.5vw;
+  }
+  .secondary section img {
+    margin: 0 auto;
+    padding: 30px 0;
+    width: 100%;
+  }
+  .secondary section p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+
+  /* PARALLAX : Stormtroopers */
+  #stormtroopers {
+    background-image: url('./public/images/stormtroopers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 30px auto 0 auto;
+    height: 400px;
+  }
+
+
+  /* FOOTER */
+  footer {
+    background-image: url('./public/images/darthvader.jpg');
+    display: block;
+    height: 272px;
+    min-height: 272px;
+    min-width: 320px;
+    width: 100vw;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    height: auto;
+    padding-top: 40px;
+    flex-flow: row wrap;
+  }
+
+  .links ul:nth-child(1) {
+    padding-bottom: 70px;
+    width: 50%;
+  }
+  .links ul:nth-child(0n+2) {
+    padding-bottom: 70px;
+    width: 50%;
+  }
+
+  .links ul:nth-child(0n+3) {
+    grid-row: 2;
+    width: 100vw;
+  }
+  .links ul:nth-child(0n+3) li {
+    vertical-align: middle;
+    padding: 0;
+  }
+
+  .links ul li {
+    font-size: 12px;
+    line-height: 30px;
+    list-style: none;
+    text-align: center;
+  }
+
+  .links ul li a {
+    color: #9B9B9B;
+    text-decoration: none;
+  }
+
+  .links ul li a:hover {
+    color: #9B9B9B;
+    text-decoration: underline;
+  }
+
+  .links ul li ul {
+    width: 100%;
+  }
+  .links ul li ul li:first-child {
+    width: 50%;
+  }
+
+  #socials {
+    display: inline;
+    min-width: inherit;
+    padding: 0;
+    width: 100vw;
+  }
+
+  #socials li a img {
+    width: 32px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* HEADER */
+  header {
+    background-image: url('./public/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 106vw;
+    display: block;
+    height: 106vw;
+    min-height: inherit;
+    max-height: 500px;
+    min-width: 320px;
+    width: 100%;
+    text-align: center;
+  }
+
+  header img {
+    display: inline-block;
+    margin: 125px auto 0 auto;
+    min-width: 320px;
+    width: 100%;
+  }
+
+  /* SECTION PRIMARY */
+  .primary {
+    margin: 30px auto 0 auto;
+    width: 100vw;
+  }
+
+  .primary section {
+    margin: 0 auto;
+    text-align: center;
+    width: 82.5vw;
+  }
+
+  .primary aside {
+    display: none;
+  }
+}

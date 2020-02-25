@@ -8,7 +8,7 @@ a front-end test with star wars content
 - [ ] Mettre un title sur les balises <a />
 - [ ] Mettre une liste ``<ul><li>``... dans la Navbar
 - [ ] Ajouter des ancres dans le texte
-- [ ] Vérifier les mots soulignés et en gras dans la première partie
+- [x] Vérifier les mots soulignés et en gras dans la première partie
 - [ ] Utiliser ``<ul><li>`` pour le texte de fin dans la deuxième partie
 - [ ] Corriger l'utilisation de aside sans article
 - [ ] Appliquer la norme choisie

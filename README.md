@@ -1,27 +1,14 @@
 # sw-test
 a front-end test with star wars content
 
-## TODO
-- [x] Installer Webpack
-- [x] Configurer Webpack
-- [x] Importer les assets
-- [x] Intégrer le header
-- [x] Styliser le header en Responsive
-- [x] Intégrer la 1ère section
-- [x] Styliser la 1ère section en Responsive
-- [x] Intégrer la pub PS4
-- [x] Styliser la pub PS4
-- [x] Intégrer le bloc Parallax de Kylo Ren
-- [x] Styliser le bloc Parallax de Kylo Ren
-- [x] Intégrer la 2ème section
-- [x] Styliser la 2ème section en Responsive
-- [x] Intégrer le bloc Parallax des Stormtroopers
-- [x] Styliser le bloc Parallax des Stormtroopers
-- [x] Intégrer le footer
-- [x] Styliser le footer
-- [x] Intégrer le menu responsive
-- [x] Styliser le menu responsive
-- [x] Créer la fonction du menu
-- [x] Créer la fonction pour la pub
-- [x] Créer une fonction avec un léger effet Parallax
-- [x] Créer la fonction Parallax
+## TODO V2
+- [ ] Utiliser la bonne police
+- [ ] Bien positionner les images de background
+- [ ] Refactoriser le module Parallax en classe
+- [ ] Mettre un title sur les balises <a />
+- [ ] Mettre une liste ``<ul><li>``... dans la Navbar
+- [ ] Ajouter des ancres dans le texte
+- [ ] Vérifier les mots soulignés et en gras dans la première partie
+- [ ] Utiliser ``<ul><li>`` pour le texte de fin dans la deuxième partie
+- [ ] Corriger l'utilisation de aside sans article
+- [ ] Appliquer la norme choisie

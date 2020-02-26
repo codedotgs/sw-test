@@ -4,7 +4,7 @@ a front-end test with star wars content
 ## TODO V2
 - [x] Utiliser la bonne police
 - [ ] Bien positionner les images de background
-- [ ] Refactoriser le module Parallax en classe
+- [x] Refactoriser le module Parallax en classe
 - [x] Mettre un title sur les balises <a />
 - [x] Mettre une liste ``<ul><li>``... dans la Navbar
 - [x] Corriger bug de la Navbar : suppression de la balise style

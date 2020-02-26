@@ -16,11 +16,7 @@ let navCloser = document.querySelector('#close');
 NavBarMobile.apply(null, [navDiv, navOpener, navCloser]);
 
 // APPLY PARALLAX
-let header = document.querySelector('header');
-let kyloren = document.querySelector('#kyloren');
-Parallax.apply(null, [header, 1.5, 0.9]);
-Parallax.apply(null, [kyloren, 1.2, 0.9]);
-
-
-
-
+let headerParallax = new Parallax('header', 1.5, 0.9);
+let kylorenParallax = new Parallax('#kyloren', 1.2, 0.9);
+headerParallax.init();
+kylorenParallax.init();

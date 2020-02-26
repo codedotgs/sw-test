@@ -14,6 +14,12 @@ const NavBarMobile = (navBar, opener, closer) => {
     body.style.overflow = "scroll";
     navBar.style.boxShadow = "none";
   });
+
+  window.addEventListener('resize', event => {
+    if (event.target.innerWidth > 900) {
+      navBar.removeAttribute("style");
+    }
+  });
 }
 
 export default NavBarMobile;
